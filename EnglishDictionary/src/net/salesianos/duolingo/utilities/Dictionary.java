@@ -27,13 +27,13 @@ public class Dictionary {
     public void existWord(String word) {
         String initial = word.substring(0,1);
         if (wordlist.containsKey(initial)) {
-            if (wordlist.get(initial).contains(word)) {
+            if (wordlist.get(initial).equals(word)) {
                 System.out.println("La palabra ya se encontraba registrada");
             } else {
                 System.out.println("La palabra no esta registrada");
             }
         } else if (!wordlist.containsKey(initial)){
-            System.out.println("La palabra no se encuentra registrada");
+            System.out.println("No hay ninguna palabra guardada que empiece con la letra " + initial);
         }
     }
 
