@@ -27,7 +27,7 @@ public class Dictionary {
     public void existWord(String word) {
         String initial = word.substring(0,1);
         if (wordlist.containsKey(initial)) {
-            if (wordlist.get(initial).equals(word)) {
+            if (wordlist.get(initial).contains(word)) {
                 System.out.println("La palabra ya se encontraba registrada");
             } else {
                 System.out.println("La palabra no esta registrada");
