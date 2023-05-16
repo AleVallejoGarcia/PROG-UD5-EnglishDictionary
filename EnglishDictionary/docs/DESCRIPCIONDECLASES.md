@@ -11,4 +11,4 @@ La clase Dictionary contiene todos el map que seria nuestro diccionario que tien
 Esta es la clase ejecutable del proyecto lo principal que tiene esta clase es un switch que hace de menú de interacción con el usuario.
 
 ### Readme
-Para volver al README pinche [aquí](/README.md)
+Para volver al README pinche [aquí](../README.md)
